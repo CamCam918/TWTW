@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}WOW NEWS{% endblock title %}
+
+{% block content %}
+    <h1>Welcome to The World that Wonders!</h1>
+
+    <p>If you havent become part of our family please be so kind as to sign up <a href="{% url 'signup' %}">Here</a>.</p>
+
+    <p>If you've already joined our family, click <a href="{% url 'login' %}">here</a>.</p>
+
+{% endblock content %}
